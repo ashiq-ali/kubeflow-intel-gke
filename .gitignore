@@ -1,0 +1,12 @@
+*.secret
+*.env
+.vault_pass
+management/env.sh
+kubeflow/env.sh
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+creds/
+*.json.secret
+.DS_Store
